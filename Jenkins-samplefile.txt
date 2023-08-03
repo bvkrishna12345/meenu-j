@@ -22,6 +22,11 @@ agent any
                 echo 'Hello World'
             }
         }
-   
+  stage('monitor') {
+           
+ steps {
+                echo 'no error logs'
+            }
+        }  
 }
 }
